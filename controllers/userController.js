@@ -1,6 +1,6 @@
 const User = require('../db/models/user')
-const EmailOTP = require('../db/models/EmailOTP')
-const PhoneOTP = require('../db/models/PhoneOTP')
+const EmailOTP = require('../db/models/emailOTP')
+const PhoneOTP = require('../db/models/phoneOTP')
 
 const accountSid = process.env.TWILIO_ACCOUNT_SID;
 const authToken = process.env.TWILIO_AUTH_TOKEN;
