@@ -29,9 +29,9 @@ module.exports = {
   production: {
     client: 'postgresql',
     connection: {
-      database: 'my_db',
-      user:     'username',
-      password: 'password'
+      database: 'users',
+      user:     'wafers',
+      password: 'krishna08'
     },
     pool: {
       min: 2,
@@ -39,7 +39,12 @@ module.exports = {
     },
     migrations: {
       tableName: 'knex_migrations'
+    },
+    seeds:{
+      directory:'./seeds'
     }
+    ,
+    ...knexSnakeCaseMappers
   }
 
 };
