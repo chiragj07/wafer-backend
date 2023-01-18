@@ -19,10 +19,6 @@ module.exports = {
     migrations: {
       tableName: 'knex_migrations'
     },
-    seeds:{
-      directory:'./seeds'
-    }
-    ,
     ...knexSnakeCaseMappers
   },
 
@@ -39,9 +35,6 @@ module.exports = {
     },
     migrations: {
       tableName: 'knex_migrations'
-    },
-    seeds:{
-      directory:'./seeds'
     }
     ,
     ...knexSnakeCaseMappers
