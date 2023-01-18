@@ -1,9 +1,9 @@
 const {Model} = require('objection')
 
-class emailOTP extends Model{
+class EmailOTP extends Model{
     static get tableName(){
         return 'emailotp';
     }
 }
 
-module.exports = emailOTP
+module.exports = EmailOTP
