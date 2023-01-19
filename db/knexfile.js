@@ -8,9 +8,10 @@ module.exports = {
   development: {
     client: 'postgresql',
     connection: {
-      database: 'users',
-      user:     'wafers',
-      password: 'krishna08'
+      host:'bt2xejrvtfgult51ebsh-postgresql.services.clever-cloud.com',
+      database: 'bt2xejrvtfgult51ebsh',
+      user:     'uwhsudctyiuvizlqcmnt',
+      password: 'MW0ztqz22xbE9qNgGr2FYnyk7YCMiN'
     },
     pool: {
       min: 2,
@@ -22,12 +23,13 @@ module.exports = {
     ...knexSnakeCaseMappers
   },
 
-  production: {
+  production:{
     client: 'postgresql',
     connection: {
-      database: 'users',
-      user:     'wafers',
-      password: 'krishna08'
+      host:'bt2xejrvtfgult51ebsh-postgresql.services.clever-cloud.com',
+      database: 'bt2xejrvtfgult51ebsh',
+      user:     'uwhsudctyiuvizlqcmnt',
+      password: 'MW0ztqz22xbE9qNgGr2FYnyk7YCMiN'
     },
     pool: {
       min: 2,
@@ -35,8 +37,7 @@ module.exports = {
     },
     migrations: {
       tableName: 'knex_migrations'
-    }
-    ,
+    },
     ...knexSnakeCaseMappers
   }
 
