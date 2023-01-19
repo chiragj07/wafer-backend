@@ -150,7 +150,7 @@ async function loginUser(req,res){
         await sendOTPtoEmail(email);
         
 
-        res.status(200).json({message:"otp has been sent to phone", user})
+        res.status(200).json({message:"otp has been sent to mail", user})
 
     }
     catch(e){
